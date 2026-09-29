@@ -9,57 +9,57 @@
 
 Store texts of all locales: `ios-4.4/<locale>/store.md` (name, subtitle, promotional text, description, what's new, URLs; no keywords).
 
-Screenshots: `ios-4.4/<locale>/screenshots/<displayType>/<NN>-<fileName>`, original size (PNG). `en-US` and `de-DE` are in this tree. All other locales are in the release `store-2026-09-29` (https://github.com/ComicSans/makesapps-media/releases/tag/store-2026-09-29): `sudoku-pro-ios-4.4-ipad.zip`, `sudoku-pro-ios-4.4-iphone.zip`. Each ZIP unpacks to the same path layout (`apps/sudoku-pro/ios-4.4/<locale>/screenshots/...`).
+Screenshots of all locales: `ios-4.4/<locale>/screenshots/<displayType>/<NN>-<fileName>`, original size (PNG, stored with Git LFS, see the repository README for how to fetch single files). If the store file name already starts with its position number, it is kept as is.
 
-| Locale | Name | Screenshots | Where |
-|---|---|---|---|
-| ar-SA | سودوكو برو: ألغاز وتدريب | APP_IPAD_PRO_3GEN_129: 4, APP_IPHONE_67: 5 | release store-2026-09-29 |
-| bn-BD | সুডোকু প্রো: ধাঁধা ও ট্রেনার | APP_IPAD_PRO_3GEN_129: 4, APP_IPHONE_67: 5 | release store-2026-09-29 |
-| ca | Sudoku Pro: Resol i Entrena | APP_IPAD_PRO_3GEN_129: 4, APP_IPHONE_67: 5 | release store-2026-09-29 |
-| cs | Sudoku Pro: Hádanky a Trénink | APP_IPAD_PRO_3GEN_129: 4, APP_IPHONE_67: 5 | release store-2026-09-29 |
-| da | Sudoku Pro: Gåder & Træning | APP_IPAD_PRO_3GEN_129: 4, APP_IPHONE_67: 5 | release store-2026-09-29 |
-| de-DE | Sudoku Pro: Rätsel und Trainer | APP_IPAD_PRO_3GEN_129: 4, APP_IPHONE_67: 5 | tree |
-| el | Sudoku Pro: Γρίφοι & Προπόνηση | APP_IPAD_PRO_3GEN_129: 4, APP_IPHONE_67: 5 | release store-2026-09-29 |
-| en-AU | Sudoku Pro: Puzzles & Trainer | APP_IPAD_PRO_3GEN_129: 4, APP_IPHONE_67: 5 | release store-2026-09-29 |
-| en-CA | Sudoku Pro: Puzzles & Trainer | APP_IPAD_PRO_3GEN_129: 4, APP_IPHONE_67: 5 | release store-2026-09-29 |
-| en-GB | Sudoku Pro: Puzzles & Trainer | APP_IPAD_PRO_3GEN_129: 4, APP_IPHONE_67: 5 | release store-2026-09-29 |
-| en-US | Sudoku Pro: Puzzles & Trainer | APP_IPAD_PRO_3GEN_129: 4, APP_IPHONE_67: 5 | tree |
-| es-ES | Sudoku Pro: Resuelve y Entrena | APP_IPAD_PRO_3GEN_129: 4, APP_IPHONE_67: 5 | release store-2026-09-29 |
-| es-MX | Sudoku Pro: Resuelve y Entrena | APP_IPAD_PRO_3GEN_129: 4, APP_IPHONE_67: 5 | release store-2026-09-29 |
-| fi | Sudoku Pro: Ratkaise & Treenaa | APP_IPAD_PRO_3GEN_129: 4, APP_IPHONE_67: 5 | release store-2026-09-29 |
-| fr-CA | Sudoku Pro: Énigmes & Défis | APP_IPAD_PRO_3GEN_129: 4, APP_IPHONE_67: 5 | release store-2026-09-29 |
-| fr-FR | Sudoku Pro: Énigmes & Défis | APP_IPAD_PRO_3GEN_129: 4, APP_IPHONE_67: 5 | release store-2026-09-29 |
-| gu-IN | સુડોકુ પ્રો: કોયડા અને ટ્રેનર | APP_IPAD_PRO_3GEN_129: 4, APP_IPHONE_67: 5 | release store-2026-09-29 |
-| he | Sudoku Pro: חידות ואימון | APP_IPAD_PRO_3GEN_129: 4, APP_IPHONE_67: 5 | release store-2026-09-29 |
-| hi | सुडोकू प्रो: पहेली और अभ्यास | APP_IPAD_PRO_3GEN_129: 4, APP_IPHONE_67: 5 | release store-2026-09-29 |
-| hr | Sudoku Pro: Rješavaj i Vježbaj | APP_IPAD_PRO_3GEN_129: 4, APP_IPHONE_67: 5 | release store-2026-09-29 |
-| hu | Sudoku Pro: Rejtvény és Edzés | APP_IPAD_PRO_3GEN_129: 4, APP_IPHONE_67: 5 | release store-2026-09-29 |
-| id | Sudoku Pro: Teka-teki & Latih | APP_IPAD_PRO_3GEN_129: 4, APP_IPHONE_67: 5 | release store-2026-09-29 |
-| it | Sudoku Pro: Risolvi e Allena | APP_IPAD_PRO_3GEN_129: 4, APP_IPHONE_67: 5 | release store-2026-09-29 |
-| ja | 数独Pro：パズルとトレーニング | APP_IPAD_PRO_3GEN_129: 4, APP_IPHONE_67: 5 | release store-2026-09-29 |
-| kn-IN | ಸುಡೋಕು ಪ್ರೊ: ಒಗಟು ಮತ್ತು ತರಬೇತಿ | APP_IPAD_PRO_3GEN_129: 4, APP_IPHONE_67: 5 | release store-2026-09-29 |
-| ko | 스도쿠 프로: 퍼즐과 훈련 | APP_IPAD_PRO_3GEN_129: 4, APP_IPHONE_67: 5 | release store-2026-09-29 |
-| ml-IN | സുഡോകു പ്രോ: പസിലും പരിശീലനവും | APP_IPAD_PRO_3GEN_129: 4, APP_IPHONE_67: 5 | release store-2026-09-29 |
-| mr-IN | सुडोकू प्रो: कोडी आणि सराव | APP_IPAD_PRO_3GEN_129: 4, APP_IPHONE_67: 5 | release store-2026-09-29 |
-| ms | Sudoku Pro: Teka-teki & Latih | APP_IPAD_PRO_3GEN_129: 4, APP_IPHONE_67: 5 | release store-2026-09-29 |
-| nl-NL | Sudoku Pro: Puzzels & Trainer | APP_IPAD_PRO_3GEN_129: 4, APP_IPHONE_67: 5 | release store-2026-09-29 |
-| no | Sudoku Pro: Gåter & Trening | APP_IPAD_PRO_3GEN_129: 4, APP_IPHONE_67: 5 | release store-2026-09-29 |
-| or-IN | ସୁଡୋକୁ ପ୍ରୋ: ପଜଲ୍ ଓ ଅଭ୍ୟାସ | APP_IPAD_PRO_3GEN_129: 4, APP_IPHONE_67: 5 | release store-2026-09-29 |
-| pa-IN | ਸੁਡੋਕੂ ਪ੍ਰੋ: ਪਹੇਲੀਆਂ ਤੇ ਸਿਖਲਾਈ | APP_IPAD_PRO_3GEN_129: 4, APP_IPHONE_67: 5 | release store-2026-09-29 |
-| pl | Sudoku Pro: Zagadki i Trening | APP_IPAD_PRO_3GEN_129: 4, APP_IPHONE_67: 5 | release store-2026-09-29 |
-| pt-BR | Sudoku Pro: Resolva e Treine | APP_IPAD_PRO_3GEN_129: 4, APP_IPHONE_67: 5 | release store-2026-09-29 |
-| pt-PT | Sudoku Pro: Resolva e Treine | APP_IPAD_PRO_3GEN_129: 4, APP_IPHONE_67: 5 | release store-2026-09-29 |
-| ro | Sudoku Pro: Puzzle și Antrenor | APP_IPAD_PRO_3GEN_129: 4, APP_IPHONE_67: 5 | release store-2026-09-29 |
-| ru | Sudoku Pro: задачи и тренажёр | APP_IPAD_PRO_3GEN_129: 4, APP_IPHONE_67: 5 | release store-2026-09-29 |
-| sk | Sudoku Pro: Hádanky a Tréning | APP_IPAD_PRO_3GEN_129: 4, APP_IPHONE_67: 5 | release store-2026-09-29 |
-| sl-SI | Sudoku Pro: Uganke in trener | APP_IPAD_PRO_3GEN_129: 4, APP_IPHONE_67: 5 | release store-2026-09-29 |
-| sv | Sudoku Pro: Pussel & Träning | APP_IPAD_PRO_3GEN_129: 4, APP_IPHONE_67: 5 | release store-2026-09-29 |
-| ta-IN | சுடோகு ப்ரோ: புதிர் & பயிற்சி | APP_IPAD_PRO_3GEN_129: 4, APP_IPHONE_67: 5 | release store-2026-09-29 |
-| te-IN | సుడోకు ప్రో: పజిల్ & శిక్షణ | APP_IPAD_PRO_3GEN_129: 4, APP_IPHONE_67: 5 | release store-2026-09-29 |
-| th | ซูโดกุโปร: ปริศนาและฝึกฝน | APP_IPAD_PRO_3GEN_129: 4, APP_IPHONE_67: 5 | release store-2026-09-29 |
-| tr | Sudoku Pro: Bulmaca & Antrenör | APP_IPAD_PRO_3GEN_129: 4, APP_IPHONE_67: 5 | release store-2026-09-29 |
-| uk | Sudoku Pro: задачі і тренажер | APP_IPAD_PRO_3GEN_129: 4, APP_IPHONE_67: 5 | release store-2026-09-29 |
-| ur-PK | سوڈوکو پرو: پہیلیاں اور ٹرینر | APP_IPAD_PRO_3GEN_129: 4, APP_IPHONE_67: 5 | release store-2026-09-29 |
-| vi | Sudoku Pro: Giải đố & Luyện | APP_IPAD_PRO_3GEN_129: 4, APP_IPHONE_67: 5 | release store-2026-09-29 |
-| zh-Hans | 数独Pro：谜题与训练 | APP_IPAD_PRO_3GEN_129: 4, APP_IPHONE_67: 5 | release store-2026-09-29 |
-| zh-Hant | 數獨Pro：謎題與訓練 | APP_IPAD_PRO_3GEN_129: 4, APP_IPHONE_67: 5 | release store-2026-09-29 |
+| Locale | Name | Screenshots |
+|---|---|---|
+| ar-SA | سودوكو برو: ألغاز وتدريب | APP_IPAD_PRO_3GEN_129: 4, APP_IPHONE_67: 5 |
+| bn-BD | সুডোকু প্রো: ধাঁধা ও ট্রেনার | APP_IPAD_PRO_3GEN_129: 4, APP_IPHONE_67: 5 |
+| ca | Sudoku Pro: Resol i Entrena | APP_IPAD_PRO_3GEN_129: 4, APP_IPHONE_67: 5 |
+| cs | Sudoku Pro: Hádanky a Trénink | APP_IPAD_PRO_3GEN_129: 4, APP_IPHONE_67: 5 |
+| da | Sudoku Pro: Gåder & Træning | APP_IPAD_PRO_3GEN_129: 4, APP_IPHONE_67: 5 |
+| de-DE | Sudoku Pro: Rätsel und Trainer | APP_IPAD_PRO_3GEN_129: 4, APP_IPHONE_67: 5 |
+| el | Sudoku Pro: Γρίφοι & Προπόνηση | APP_IPAD_PRO_3GEN_129: 4, APP_IPHONE_67: 5 |
+| en-AU | Sudoku Pro: Puzzles & Trainer | APP_IPAD_PRO_3GEN_129: 4, APP_IPHONE_67: 5 |
+| en-CA | Sudoku Pro: Puzzles & Trainer | APP_IPAD_PRO_3GEN_129: 4, APP_IPHONE_67: 5 |
+| en-GB | Sudoku Pro: Puzzles & Trainer | APP_IPAD_PRO_3GEN_129: 4, APP_IPHONE_67: 5 |
+| en-US | Sudoku Pro: Puzzles & Trainer | APP_IPAD_PRO_3GEN_129: 4, APP_IPHONE_67: 5 |
+| es-ES | Sudoku Pro: Resuelve y Entrena | APP_IPAD_PRO_3GEN_129: 4, APP_IPHONE_67: 5 |
+| es-MX | Sudoku Pro: Resuelve y Entrena | APP_IPAD_PRO_3GEN_129: 4, APP_IPHONE_67: 5 |
+| fi | Sudoku Pro: Ratkaise & Treenaa | APP_IPAD_PRO_3GEN_129: 4, APP_IPHONE_67: 5 |
+| fr-CA | Sudoku Pro: Énigmes & Défis | APP_IPAD_PRO_3GEN_129: 4, APP_IPHONE_67: 5 |
+| fr-FR | Sudoku Pro: Énigmes & Défis | APP_IPAD_PRO_3GEN_129: 4, APP_IPHONE_67: 5 |
+| gu-IN | સુડોકુ પ્રો: કોયડા અને ટ્રેનર | APP_IPAD_PRO_3GEN_129: 4, APP_IPHONE_67: 5 |
+| he | Sudoku Pro: חידות ואימון | APP_IPAD_PRO_3GEN_129: 4, APP_IPHONE_67: 5 |
+| hi | सुडोकू प्रो: पहेली और अभ्यास | APP_IPAD_PRO_3GEN_129: 4, APP_IPHONE_67: 5 |
+| hr | Sudoku Pro: Rješavaj i Vježbaj | APP_IPAD_PRO_3GEN_129: 4, APP_IPHONE_67: 5 |
+| hu | Sudoku Pro: Rejtvény és Edzés | APP_IPAD_PRO_3GEN_129: 4, APP_IPHONE_67: 5 |
+| id | Sudoku Pro: Teka-teki & Latih | APP_IPAD_PRO_3GEN_129: 4, APP_IPHONE_67: 5 |
+| it | Sudoku Pro: Risolvi e Allena | APP_IPAD_PRO_3GEN_129: 4, APP_IPHONE_67: 5 |
+| ja | 数独Pro：パズルとトレーニング | APP_IPAD_PRO_3GEN_129: 4, APP_IPHONE_67: 5 |
+| kn-IN | ಸುಡೋಕು ಪ್ರೊ: ಒಗಟು ಮತ್ತು ತರಬೇತಿ | APP_IPAD_PRO_3GEN_129: 4, APP_IPHONE_67: 5 |
+| ko | 스도쿠 프로: 퍼즐과 훈련 | APP_IPAD_PRO_3GEN_129: 4, APP_IPHONE_67: 5 |
+| ml-IN | സുഡോകു പ്രോ: പസിലും പരിശീലനവും | APP_IPAD_PRO_3GEN_129: 4, APP_IPHONE_67: 5 |
+| mr-IN | सुडोकू प्रो: कोडी आणि सराव | APP_IPAD_PRO_3GEN_129: 4, APP_IPHONE_67: 5 |
+| ms | Sudoku Pro: Teka-teki & Latih | APP_IPAD_PRO_3GEN_129: 4, APP_IPHONE_67: 5 |
+| nl-NL | Sudoku Pro: Puzzels & Trainer | APP_IPAD_PRO_3GEN_129: 4, APP_IPHONE_67: 5 |
+| no | Sudoku Pro: Gåter & Trening | APP_IPAD_PRO_3GEN_129: 4, APP_IPHONE_67: 5 |
+| or-IN | ସୁଡୋକୁ ପ୍ରୋ: ପଜଲ୍ ଓ ଅଭ୍ୟାସ | APP_IPAD_PRO_3GEN_129: 4, APP_IPHONE_67: 5 |
+| pa-IN | ਸੁਡੋਕੂ ਪ੍ਰੋ: ਪਹੇਲੀਆਂ ਤੇ ਸਿਖਲਾਈ | APP_IPAD_PRO_3GEN_129: 4, APP_IPHONE_67: 5 |
+| pl | Sudoku Pro: Zagadki i Trening | APP_IPAD_PRO_3GEN_129: 4, APP_IPHONE_67: 5 |
+| pt-BR | Sudoku Pro: Resolva e Treine | APP_IPAD_PRO_3GEN_129: 4, APP_IPHONE_67: 5 |
+| pt-PT | Sudoku Pro: Resolva e Treine | APP_IPAD_PRO_3GEN_129: 4, APP_IPHONE_67: 5 |
+| ro | Sudoku Pro: Puzzle și Antrenor | APP_IPAD_PRO_3GEN_129: 4, APP_IPHONE_67: 5 |
+| ru | Sudoku Pro: задачи и тренажёр | APP_IPAD_PRO_3GEN_129: 4, APP_IPHONE_67: 5 |
+| sk | Sudoku Pro: Hádanky a Tréning | APP_IPAD_PRO_3GEN_129: 4, APP_IPHONE_67: 5 |
+| sl-SI | Sudoku Pro: Uganke in trener | APP_IPAD_PRO_3GEN_129: 4, APP_IPHONE_67: 5 |
+| sv | Sudoku Pro: Pussel & Träning | APP_IPAD_PRO_3GEN_129: 4, APP_IPHONE_67: 5 |
+| ta-IN | சுடோகு ப்ரோ: புதிர் & பயிற்சி | APP_IPAD_PRO_3GEN_129: 4, APP_IPHONE_67: 5 |
+| te-IN | సుడోకు ప్రో: పజిల్ & శిక్షణ | APP_IPAD_PRO_3GEN_129: 4, APP_IPHONE_67: 5 |
+| th | ซูโดกุโปร: ปริศนาและฝึกฝน | APP_IPAD_PRO_3GEN_129: 4, APP_IPHONE_67: 5 |
+| tr | Sudoku Pro: Bulmaca & Antrenör | APP_IPAD_PRO_3GEN_129: 4, APP_IPHONE_67: 5 |
+| uk | Sudoku Pro: задачі і тренажер | APP_IPAD_PRO_3GEN_129: 4, APP_IPHONE_67: 5 |
+| ur-PK | سوڈوکو پرو: پہیلیاں اور ٹرینر | APP_IPAD_PRO_3GEN_129: 4, APP_IPHONE_67: 5 |
+| vi | Sudoku Pro: Giải đố & Luyện | APP_IPAD_PRO_3GEN_129: 4, APP_IPHONE_67: 5 |
+| zh-Hans | 数独Pro：谜题与训练 | APP_IPAD_PRO_3GEN_129: 4, APP_IPHONE_67: 5 |
+| zh-Hant | 數獨Pro：謎題與訓練 | APP_IPAD_PRO_3GEN_129: 4, APP_IPHONE_67: 5 |
