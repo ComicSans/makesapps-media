@@ -9,9 +9,9 @@
 
 Store texts of all locales: `ios-1.0.1/<locale>/store.md` (name, subtitle, promotional text, description, what's new, URLs; no keywords).
 
-Screenshots: `ios-1.0.1/<locale>/screenshots/<displayType>/<NN>-<fileName>`, original size (PNG). `en-US` and `de-DE` are in this tree. This app has no other locales, so there is nothing in the release.
+Screenshots of all locales: `ios-1.0.1/<locale>/screenshots/<displayType>/<NN>-<fileName>`, original size (PNG, stored with Git LFS, see the repository README for how to fetch single files). If the store file name already starts with its position number, it is kept as is.
 
-| Locale | Name | Screenshots | Where |
-|---|---|---|---|
-| de-DE | 365 Lens: Jeden Tag ein Foto | APP_IPHONE_65: 5 | tree |
-| en-US | 365 Lens: Photo Challenge | APP_IPHONE_65: 5 | tree |
+| Locale | Name | Screenshots |
+|---|---|---|
+| de-DE | 365 Lens: Jeden Tag ein Foto | APP_IPHONE_65: 5 |
+| en-US | 365 Lens: Photo Challenge | APP_IPHONE_65: 5 |
