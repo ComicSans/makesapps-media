@@ -7,11 +7,10 @@ No code, no drafts. The renderer lives elsewhere.
 ## Contents
 
 - `apps/<app-slug>/`: one folder per app that is on sale in the App Store.
-  - `README.md`: App Store ID, bundle ID, version, version date, list of locales with screenshot counts and where they live.
-  - `<platform>-<version>/<locale>/store.md`: name, subtitle, promotional text, description, what's new, marketing and support URL. No keywords. All locales are in the tree.
-  - `<platform>-<version>/<locale>/screenshots/<screenshotDisplayType>/<NN>-<fileName>`: App Store screenshots at original size (PNG), by display type (`APP_IPHONE_67`, `APP_IPAD_PRO_3GEN_129`, ...), in store order. In the tree for `en-US` and `de-DE` only. If the store file name already starts with its position (`01-board.png`, `ipad-01-board.png`), it is kept as is, otherwise `<NN>-` is added.
-- Release `store-2026-09-29` (App Store assets 2026-09-29): the screenshots of all other locales, as uncompressed ZIPs, one per app and device. Details below.
-- Weekly releases (`2026-W40`, ...): the videos as posted, one MP4 per post. Videos are not in the tree.
+  - `README.md`: App Store ID, bundle ID, version, version date, list of locales with screenshot counts.
+  - `<platform>-<version>/<locale>/store.md`: name, subtitle, promotional text, description, what's new, marketing and support URL. No keywords.
+  - `<platform>-<version>/<locale>/screenshots/<screenshotDisplayType>/<NN>-<fileName>`: App Store screenshots at original size (PNG) by display type (`APP_IPHONE_67`, `APP_IPAD_PRO_3GEN_129`, ...), in store order. If the store file name already starts with its position number (`01-board.png`, `ipad-01-board.png`), it is kept as is, otherwise `<NN>-` is added.
+- Releases, one per week (`2026-W40`, ...): the videos as posted, one MP4 per post. Videos are not in the tree.
 
 ## Source
 
@@ -30,22 +29,25 @@ App Store Connect, the version on sale (`READY_FOR_SALE`, highest version per pl
 | `365-lens` | 365 Lens: Photo Challenge | 6760582791 | tobias.reithmeier.365lens | iOS 1.0.1 | 2 |
 | `plot-spark` | Plot Spark | 6760355038 | tobias.reithmeier.storyarchitect | iOS 2.0.1 | 1 |
 
-## Release `store-2026-09-29`
+## Screenshots are in Git LFS
 
-Each ZIP holds the screenshots of every locale except `en-US` and `de-DE` (those are in the tree), with the same path layout as the tree, so unpacking it into the repo root fills in the missing folders: `apps/<slug>/ios-<version>/<locale>/screenshots/<displayType>/...`. Stored without compression, PNG files are the originals from the store. Every file is below 2 GB.
+All `*.png` files are stored with [Git LFS](https://git-lfs.com) (see `.gitattributes`). A normal clone only fetches small pointer files for them, with full-size files if Git LFS is installed (`git lfs install` once).
 
-| File | Content | Size |
-|---|---|---|
-| `claudio-ios-14.1-ipad.zip` | CLAUDIO: Audiobooks & Music, iPad screenshots, 35 locales | 1165 MB |
-| `claudio-ios-14.1-iphone.zip` | CLAUDIO: Audiobooks & Music, iPhone screenshots, 35 locales | 796 MB |
-| `find-picture-pairs-ios-2.1-ipad.zip` | Find Picture Pairs, iPad screenshots, 48 locales | 438 MB |
-| `find-picture-pairs-ios-2.1-iphone.zip` | Find Picture Pairs, iPhone screenshots, 48 locales | 325 MB |
-| `nonoquest-ios-2.0-ipad.zip` | NonoQuest, iPad screenshots, 48 locales | 473 MB |
-| `nonoquest-ios-2.0-iphone.zip` | NonoQuest, iPhone screenshots, 48 locales | 334 MB |
-| `quadrivium-ios-1.0-iphone.zip` | Quadrivium: Logic Squares, iPhone screenshots, 48 locales | 112 MB |
-| `sudoku-pro-ios-4.4-ipad.zip` | Sudoku Pro: Puzzles & Trainer, iPad screenshots, 48 locales | 274 MB |
-| `sudoku-pro-ios-4.4-iphone.zip` | Sudoku Pro: Puzzles & Trainer, iPhone screenshots, 48 locales | 270 MB |
-| `tsugi-ios-2.0-ipad.zip` | Tsugi: Zen Dominosa Puzzle, iPad screenshots, 48 locales | 267 MB |
-| `tsugi-ios-2.0-iphone.zip` | Tsugi: Zen Dominosa Puzzle, iPhone screenshots, 48 locales | 196 MB |
+Fetch a single file over HTTP:
 
-`365-lens` and `plot-spark` only have `en-US` and `de-DE` (or `en-US`), so they are completely in the tree.
+```
+curl -O https://media.githubusercontent.com/media/ComicSans/makesapps-media/main/<path>
+# example
+curl -O https://media.githubusercontent.com/media/ComicSans/makesapps-media/main/apps/tsugi/ios-2.0/de-DE/screenshots/APP_IPHONE_67/01-board.png
+```
+
+Clone without downloading the images, then pull only what is needed:
+
+```
+GIT_LFS_SKIP_SMUDGE=1 git clone https://github.com/ComicSans/makesapps-media.git
+cd makesapps-media
+git lfs pull --include "apps/tsugi/ios-2.0/de-DE/**"
+git lfs pull --include "apps/*/*/en-US/**,apps/*/*/de-DE/**"
+```
+
+The old T-023 screenshots (`screenshots/<app>/<en|de>/...`) exist only in the commit `b72dc4a` and earlier, as normal Git objects.
