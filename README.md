@@ -21,7 +21,7 @@ App Store Connect, the version on sale (`READY_FOR_SALE`, highest version per pl
 | Slug | App | Store ID | Bundle ID | Version | Locales |
 |---|---|---|---|---|---|
 | `claudio` | CLAUDIO: Audiobooks & Music | 6760961153 | tobias.reithmeier.iCloud-Audio-Player | iOS 14.1 | 37 |
-| `sudoku-pro` | Sudoku Pro: Puzzles & Trainer | 6760598939 | tobias.reithmeier.minisudoku | iOS 4.4 | 50 |
+| `sudoku-pro` | Sudoku Pro: Puzzles & Trainer | 6760598939 | tobias.reithmeier.minisudoku | iOS 5.0 | 50 |
 | `find-picture-pairs` | Find Picture Pairs | 6778074294 | tobias.reithmeier.zen-match | iOS 2.1 | 50 |
 | `quadrivium` | Quadrivium: Logic Squares | 6799608995 | tobias.reithmeier.logicsquares | iOS 1.0 | 50 |
 | `tsugi` | Tsugi: Zen Dominosa Puzzle | 6761734350 | tobias.reithmeier.tsugi | iOS 2.0 | 50 |
