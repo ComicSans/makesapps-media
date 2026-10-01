@@ -50,3 +50,7 @@ Screenshots of all locales: `ios-14.1/<locale>/screenshots/<displayType>/<NN>-<f
 | vi | CLAUDIO: Sách nói & Nhạc | APP_IPAD_PRO_3GEN_129: 7, APP_IPHONE_67: 7 |
 | zh-Hans | CLAUDIO: 有声书 & 音乐 | APP_IPAD_PRO_3GEN_129: 7, APP_IPHONE_67: 7 |
 | zh-Hant | CLAUDIO: 有聲書 & 音樂 | APP_IPAD_PRO_3GEN_129: 7, APP_IPHONE_67: 7 |
+
+## iOS 14.2 (in Vorbereitung)
+
+Social-Bilder der Mitlese-Ansicht (T-151, abgenommen 2026-10-01): `ios-14.2/<locale>/social/read-along.png` (1290x2796, aus dem Rohbild skaliert) und `read-along-raw.png` (1206x2622, iPhone 17 Pro), Locales `de-DE` und `en-US`. Fiktives Hörbuch aus der Fixture, kein App-Store-Gegenstück.
