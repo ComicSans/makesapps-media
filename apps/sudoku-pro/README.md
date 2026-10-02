@@ -65,3 +65,7 @@ The previous version on sale stays as an archive under `ios-4.4/`.
 | vi | Sudoku Pro: Giải đố & Luyện | APP_IPAD_PRO_3GEN_129: 5, APP_IPHONE_67: 6 |
 | zh-Hans | 数独Pro：谜题与训练 | APP_IPAD_PRO_3GEN_129: 5, APP_IPHONE_67: 6 |
 | zh-Hant | 數獨Pro：謎題與訓練 | APP_IPAD_PRO_3GEN_129: 5, APP_IPHONE_67: 6 |
+
+## iOS 5.1 (in Vorbereitung)
+
+Screenshots für 5.1 (sudoku-app T-081, am 2026-10-02 nach App Store Connect hochgeladen, nicht eingereicht): `ios-5.1/<locale>/screenshots/<displayType>/`, 50 Locales, iPhone 6 und iPad 5 Bilder. Gleiche Bilder wie 5.0, neue Reihenfolge mit Filzstift auf Platz 4: iPhone Brett, Killer, Hinweise, Filzstift, Trainer, Raster; iPad Brett, Killer, Samurai, Filzstift, Titelseite. Store-Texte unverändert wie `ios-5.0/<locale>/store.md`. Verkauft wird weiter iOS 5.0.
