@@ -1,0 +1,3 @@
+# Lokal: Storybloq bleibt in diesem öffentlichen Repo unversioniert (Ausnahme STORY, local-ci/ausnahmen.tsv).
+.story/
+.DS_Store
