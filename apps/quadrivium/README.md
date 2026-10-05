@@ -63,3 +63,7 @@ Screenshots of all locales: `ios-1.0/<locale>/screenshots/<displayType>/<NN>-<fi
 | vi | Quadrivium: Ô vuông lô-gic | APP_IPHONE_67: 5 |
 | zh-Hans | 四艺：逻辑方阵 | APP_IPHONE_67: 5 |
 | zh-Hant | 四藝：邏輯方陣 | APP_IPHONE_67: 5 |
+
+## iOS 1.1 (in Vorbereitung)
+
+Screenshots für 1.1 (logic-squares-app T-008, T-013, T-022, T-023, T-024; am 2026-10-05 nach App Store Connect hochgeladen, nicht eingereicht): `ios-1.1/<locale>/screenshots/<displayType>/`, 50 Locales, iPhone 6 Bilder (`APP_IPHONE_67`, 1320x2868) und iPad 4 Bilder (`APP_IPAD_PRO_3GEN_129`, 2064x2752, Zeitungswelt: Brett, Hinweis, Titelseite, Almanach). Neue Hinweis-Überschrift „Der nächste Zug. Mit Begründung.“, Hinweiskarte mit fester Höhe. Store-Texte in `ios-1.1/<locale>/store.md` (logic-squares-app T-025, ISS-031; hochgeladen, nicht eingereicht): neue Beschreibung (korrigierte Spielregel für das Magische Quadrat), „Was ist neu“ mit iPad-Zeitungswelt, Keywords. Verkauft wird weiter iOS 1.0; dort sind die zh-Hant-Bilder (Taiwan, Hongkong) fehlerhaft, behoben erst mit 1.1 (T-022).
