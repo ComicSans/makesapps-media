@@ -28,6 +28,7 @@ App Store Connect, the version on sale (`READY_FOR_SALE`, highest version per pl
 | `nonoquest` | NonoQuest | 6769264877 | tobias.reithmeier.PictoQuest | iOS 2.0 | 50 |
 | `365-lens` | 365 Lens: Photo Challenge | 6760582791 | tobias.reithmeier.365lens | iOS 1.0.1 | 2 |
 | `plot-spark` | Plot Spark | 6760355038 | tobias.reithmeier.storyarchitect | iOS 2.0.1 | 1 |
+| `pausefirst` | PauseFirst: App Blocker | 6814365403 | tobias.reithmeier.frictionblock | iOS 1.0 (in Vorbereitung, nicht im Verkauf) | 2 |
 
 ## Screenshots are in Git LFS
 
