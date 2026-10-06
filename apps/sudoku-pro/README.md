@@ -66,6 +66,10 @@ The previous version on sale stays as an archive under `ios-4.4/`.
 | zh-Hans | 数独Pro：谜题与训练 | APP_IPAD_PRO_3GEN_129: 5, APP_IPHONE_67: 6 |
 | zh-Hant | 數獨Pro：謎題與訓練 | APP_IPAD_PRO_3GEN_129: 5, APP_IPHONE_67: 6 |
 
+## iOS 5.2 (in Vorbereitung)
+
+Ziel iPhone Duo (sudoku-app Phase v5-2). Creative Assets für iOS 27 (sudoku-app T-093, von Tobias am 2026-10-06 abgenommen, Upload in die Asset Library per Hand): `ios-5.2/<locale>/creative-assets/header.png` (Produktseiten-Kopf 3840x1646, Filzstift-Brett mit Headline des Brett-Motivs) und `search.png` (Suchergebnis 3840x2560, Trainer-Szene: Brett und Erklärung desselben Schritts), 50 Locales, gerendert von `marketing/store-screenshots/creative.py`. Store-Texte in `ios-5.2/<locale>/store.md` (sudoku-app T-095, am 2026-10-06 nach App Store Connect hochgeladen, nicht eingereicht): wie 5.1, „Was ist neu“ mit neuer erster Zeile zur iPhone-Duo-Unterstützung. Screenshots wie 5.1 (`ios-5.1/`), keine Duo-Screenshots für 5.2. TestFlight 5.2 (158) am 2026-10-06. Verkauft wird weiter iOS 5.0.
+
 ## iOS 5.1 (in Vorbereitung)
 
 Screenshots für 5.1 (sudoku-app T-081, am 2026-10-02 nach App Store Connect hochgeladen, nicht eingereicht): `ios-5.1/<locale>/screenshots/<displayType>/`, 50 Locales, iPhone 6 und iPad 5 Bilder. Gleiche Bilder wie 5.0, neue Reihenfolge mit Filzstift auf Platz 4: iPhone Brett, Killer, Hinweise, Filzstift, Trainer, Raster; iPad Brett, Killer, Samurai, Filzstift, Titelseite. Store-Texte in `ios-5.1/<locale>/store.md` (sudoku-app T-092, am 2026-10-05 nach App Store Connect hochgeladen, nicht eingereicht): Beschreibung, Werbetext und Keywords wie 5.0, neues „Was ist neu“ (gleiche Ziffern stärker markiert; Deutsch zusätzlich einheitliche Technik-Namen). Verkauft wird weiter iOS 5.0.
