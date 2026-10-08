@@ -63,3 +63,7 @@ Screenshots of all locales: `ios-2.1/<locale>/screenshots/<displayType>/<NN>-<fi
 | vi | Tìm cặp hình ảnh | APP_IPAD_PRO_3GEN_129: 4, APP_IPHONE_67: 4 |
 | zh-Hans | 寻找图片配对 | APP_IPAD_PRO_3GEN_129: 4, APP_IPHONE_67: 4 |
 | zh-Hant | 尋找圖片配對 | APP_IPAD_PRO_3GEN_129: 4, APP_IPHONE_67: 4 |
+
+## iOS 2.2 (in Vorbereitung)
+
+Creative Assets für iOS 27 (match-app T-030, 2026-10-08): `ios-2.2/<locale>/creative-assets/universal.png` (5244x2950, ein 16:9-Bild für Produktseiten-Kopf und Suchergebnis), Locales de-DE und en-US. Verkauft wird weiter iOS 2.1.

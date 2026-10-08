@@ -10,6 +10,7 @@ No code, no drafts. The renderer lives elsewhere.
   - `README.md`: App Store ID, bundle ID, version, version date, list of locales with screenshot counts.
   - `<platform>-<version>/<locale>/store.md`: name, subtitle, promotional text, description, what's new, marketing and support URL. No keywords.
   - `<platform>-<version>/<locale>/screenshots/<screenshotDisplayType>/<NN>-<fileName>`: App Store screenshots at original size (PNG) by display type (`APP_IPHONE_67`, `APP_IPAD_PRO_3GEN_129`, ...), in store order. If the store file name already starts with its position number (`01-board.png`, `ipad-01-board.png`), it is kept as is, otherwise `<NN>-` is added.
+  - `<platform>-<version>/<locale>/creative-assets/`: App Store creative assets (iOS 27 asset library) at original size (PNG), same name in every app: `header.png` (product page header, 3840x1646), `search.png` (search result, 3840x2560), or `universal.png` where one 16:9 image (5244x2950) serves both placements. Local source in the app repos: `fastlane/creative_assets/<locale>/` with the same file names.
 - Releases, one per week (`2026-W40`, ...): the videos as posted, one MP4 per post. Videos are not in the tree.
 
 ## Source
