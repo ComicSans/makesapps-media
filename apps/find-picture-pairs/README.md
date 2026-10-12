@@ -66,4 +66,4 @@ Screenshots of all locales: `ios-2.1/<locale>/screenshots/<displayType>/<NN>-<fi
 
 ## iOS 2.2 (in Vorbereitung)
 
-Creative Assets für iOS 27 (match-app T-030, 2026-10-08): `ios-2.2/<locale>/creative-assets/universal.png` (5244x2950, ein 16:9-Bild für Produktseiten-Kopf und Suchergebnis), Locales de-DE und en-US. Verkauft wird weiter iOS 2.1.
+Creative Assets für iOS 27 (match-app T-030, 2026-10-08): `ios-2.2/<locale>/creative-assets/universal.png` (5244x2950, ein 16:9-Bild für Produktseiten-Kopf und Suchergebnis); seit 2026-10-12 neu (match-app T-033): Headline „Paare finden, Motive sammeln.“ mit Pillen 240 Motive, 18 Farben, 4 Spielmodi und einer Wand aus den Fotos der App, 50 Locales. Verkauft wird weiter iOS 2.1.
