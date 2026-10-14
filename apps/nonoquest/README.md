@@ -3,7 +3,7 @@
 - App Store ID: 6769264877 (https://apps.apple.com/app/id6769264877)
 - Bundle ID: tobias.reithmeier.PictoQuest
 - Platform and version: IOS 2.0 (state READY_FOR_SALE; version created 2026-07-26)
-- In Vorbereitung: IOS 3.0 (`ios-3.0/<locale>/screenshots/`, 50 locales, 16 screenshots each, approved by Tobias; store texts not yet in this repo; verkauft bleibt iOS 2.0)
+- In Vorbereitung: IOS 3.0 (eingereicht 14.10.2026, Store-Texte und -Bilder: `ios-3.0/<locale>/store.md` und `ios-3.0/<locale>/screenshots/`, 50 locales, 16 screenshots each, approved by Tobias; verkauft bleibt iOS 2.0)
 - Source: App Store Connect, version on sale, snapshot 2026-09-29
 - Locales: 50
 - Screenshot sets: APP_IPAD_PRO_3GEN_129, APP_IPHONE_67
