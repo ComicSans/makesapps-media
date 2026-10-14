@@ -26,7 +26,7 @@ App Store Connect, the version on sale (`READY_FOR_SALE`, highest version per pl
 | `find-picture-pairs` | Find Picture Pairs | 6778074294 | tobias.reithmeier.zen-match | iOS 2.1 | 50 |
 | `quadrivium` | Quadrivium: Logic Squares | 6799608995 | tobias.reithmeier.logicsquares | iOS 1.0 | 50 |
 | `tsugi` | Tsugi: Zen Dominosa Puzzle | 6761734350 | tobias.reithmeier.tsugi | iOS 2.0 | 50 |
-| `nonoquest` | NonoQuest | 6769264877 | tobias.reithmeier.PictoQuest | iOS 2.0 | 50 |
+| `nonoquest` | NonoQuest | 6769264877 | tobias.reithmeier.PictoQuest | iOS 3.0 | 50 |
 | `365-lens` | 365 Lens: Photo Challenge | 6760582791 | tobias.reithmeier.365lens | iOS 1.0.1 | 2 |
 | `plot-spark` | Plot Spark | 6760355038 | tobias.reithmeier.storyarchitect | iOS 2.0.1 | 1 |
 | `pausefirst` | PauseFirst: App Blocker | 6814365403 | tobias.reithmeier.frictionblock | iOS 1.0 (in Vorbereitung, nicht im Verkauf) | 2 |
