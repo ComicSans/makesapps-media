@@ -6,7 +6,7 @@ _Handy bewusster nutzen_
 
 ## Promotional text
 
-Vor dem Öffnen eine kurze Aufgabe: Wer die App wirklich braucht, löst sie in Sekunden. Wer nur aus Gewohnheit greift, merkt es. Kein Konto, alles bleibt auf dem iPhone.
+Greifst du aus Gewohnheit zum Handy? PauseFirst stellt vor gesperrte Apps eine kurze Aufgabe. Brauchst du die App wirklich, bist du schnell drin.
 
 ## Description
 
@@ -57,3 +57,13 @@ iPhone mit iOS 27 und Bildschirmzeit. PauseFirst ist für die Selbstkontrolle am
 
 - Marketing URL: https://www.tobiasreithmeier.de/pausefirst
 - Support URL: https://www.tobiasreithmeier.de/pausefirst
+
+## What's new
+
+• Bildschirmzeit-Zugriff abgelehnt? PauseFirst zeigt dir jetzt genau, wo du ihn in den Einstellungen nachträglich erlaubst.
+• Bei der Einrichtung steht gleich da, wofür PauseFirst die Bildschirmzeit braucht und dass alles auf deinem iPhone bleibt.
+
+## Creative assets
+
+- `creatives/header.png` 3840x1646 (product page header)
+- `creatives/search.png` 3840x2560 (search result)

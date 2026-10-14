@@ -6,7 +6,7 @@ _Use your phone mindfully_
 
 ## Promotional text
 
-A quick task before the app opens: if you really need it, you solve it in seconds. If it's just habit, you notice. No account, nothing leaves your iPhone.
+Reaching for your phone out of habit? PauseFirst puts a short task before blocked apps. Really need the app? You're in quickly.
 
 ## Description
 
@@ -57,3 +57,13 @@ iPhone with iOS 27 and Screen Time. PauseFirst is meant for self-control on your
 
 - Marketing URL: https://www.tobiasreithmeier.de/en/pausefirst
 - Support URL: https://www.tobiasreithmeier.de/en/pausefirst
+
+## What's new
+
+• Turned down Screen Time access? PauseFirst now shows you exactly where to allow it later in Settings.
+• During setup, you see right away why PauseFirst needs Screen Time and that everything stays on your iPhone.
+
+## Creative assets
+
+- `creatives/header.png` 3840x1646 (product page header)
+- `creatives/search.png` 3840x2560 (search result)
