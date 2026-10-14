@@ -2,7 +2,7 @@
 
 - App Store ID: 6814365403 (https://apps.apple.com/app/id6814365403)
 - Bundle ID: tobias.reithmeier.frictionblock
-- Platform and version: verkauft: iOS 1.0; iOS 1.1 in Vorbereitung (T-135, Store-Bilder und Texte hochgeladen, nicht eingereicht)
+- Platform and version: verkauft: iOS 1.0; iOS 1.1 eingereicht (Build 12, Tobias 14.10.), in App-Review
 - Source: fricton-block-app (fastlane/metadata, marketing/screenshots/ios-1.0/<de|en>/framed), T-129, state 2026-10-05; screenshots uploaded to App Store Connect, not submitted
 - Locales: 2
 - Screenshot sets: APP_IPHONE_67
