@@ -58,3 +58,7 @@ Social-Bilder der Mitlese-Ansicht (T-151, abgenommen 2026-10-01): `ios-14.2/<loc
 Creative Assets (T-185, iOS 27, abgenommen 2026-10-06): `ios-14.2/<locale>/creative-assets/header.png` (Produktseiten-Kopf, 3840x1646) und `search.png` (Suchergebnis, 3840x2560) für alle 37 Locales, Slogan „Audio? CLAUDIO!“ lokalisiert. In der Asset Library von App Store Connect hochgeladen und der Version 14.2 zugeordnet (referenceName `claudio-<locale>-header` / `-search`); geprüft wird mit der Version.
 
 Store-Screenshots (T-142/T-189, neuer Look, abgenommen 2026-10-06): `ios-14.2/<locale>/screenshots/APP_IPHONE_67/0N_<Motiv>.png` (1320x2868) und `APP_IPAD_PRO_3GEN_129/iPad-0N_<Motiv>.png` (2064x2752), je 7 Motive, alle 37 Locales (518 Bilder). Gerendert mit `marketing/store-screenshots/build.py` aus Rohaufnahmen der App; in App Store Connect der Version 14.2 zugeordnet.
+
+## iOS 14.4 (in Vorbereitung)
+
+Store-Texte (T-256, abgenommen 2026-10-16): `ios-14.4/<locale>/store.md` für alle 37 Locales (Name, Untertitel, Werbetext, Beschreibung, Neuerungen, URLs; ohne Keywords, wie `ios-14.1`). Screenshots unverändert aus dem verkauften Stand. Der Abschnitt „Platform and version“ oben nennt weiter den Verkaufsstand.
