@@ -2,14 +2,16 @@
 
 - App Store ID: 6760961153 (https://apps.apple.com/app/id6760961153)
 - Bundle ID: tobias.reithmeier.iCloud-Audio-Player
-- Platform and version: IOS 14.1 (state READY_FOR_SALE; version created 2026-09-25)
-- Source: App Store Connect, version on sale, snapshot 2026-09-29
+- Platform and version: IOS 14.3 (state READY_FOR_SALE; build 1437)
+- Source: App Store Connect, version on sale, snapshot 2026-10-16
 - Locales: 37
 - Screenshot sets: APP_IPAD_PRO_3GEN_129, APP_IPHONE_67
 
-Store texts of all locales: `ios-14.1/<locale>/store.md` (name, subtitle, promotional text, description, what's new, URLs; no keywords).
+Store texts of all locales: `ios-14.3/<locale>/store.md` (name, subtitle, promotional text, description, what's new, URLs; no keywords).
 
-Screenshots of all locales: `ios-14.1/<locale>/screenshots/<displayType>/<NN>-<fileName>`, original size (PNG, stored with Git LFS, see the repository README for how to fetch single files). If the store file name already starts with its position number, it is kept as is.
+Screenshots of all locales: `ios-14.3/<locale>/screenshots/<displayType>/<NN>-<fileName>`, original size (PNG, stored with Git LFS, see the repository README for how to fetch single files). If the store file name already starts with its position number, it is kept as is.
+
+Alter Stand: `ios-14.1/` (verkauft bis 14.2, gleiches Format).
 
 | Locale | Name | Screenshots |
 |---|---|---|
@@ -51,7 +53,7 @@ Screenshots of all locales: `ios-14.1/<locale>/screenshots/<displayType>/<NN>-<f
 | zh-Hans | CLAUDIO: 有声书 & 音乐 | APP_IPAD_PRO_3GEN_129: 7, APP_IPHONE_67: 7 |
 | zh-Hant | CLAUDIO: 有聲書 & 音樂 | APP_IPAD_PRO_3GEN_129: 7, APP_IPHONE_67: 7 |
 
-## iOS 14.2 (in Vorbereitung)
+## iOS 14.2 (im Store, durch 14.3 abgelöst)
 
 Social-Bilder der Mitlese-Ansicht (T-151, abgenommen 2026-10-01): `ios-14.2/<locale>/social/read-along.png` (1290x2796, aus dem Rohbild skaliert) und `read-along-raw.png` (1206x2622, iPhone 17 Pro), Locales `de-DE` und `en-US`. Fiktives Hörbuch aus der Fixture, kein App-Store-Gegenstück.
 
